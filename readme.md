@@ -16,6 +16,7 @@ import assert from seanlynch7194/assert;
 assert.between(5, 1, 10);
 assert.contains(`I am serious…and don't call me Shirley`, 'surely');
 assert.eq('same', 'same');
+assert.greaterOrEqualThan(value: number, limit: number);
 
 ```
 
