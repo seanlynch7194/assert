@@ -5,13 +5,13 @@ A simple Javascript library which contains assertions and guard methods for inpu
 ## Installation
 
 ```bash
-npm install seanlynch7194/assert;
+npm install @lynchbox/assert;
 ```
 
 ## List of assertions
 
 ```node
-import assert from seanlynch7194/assert;
+import assert from @lynchbox/assert;
 
 assert.between(5, 1, 10);
 assert.contains(`I am serious…and don't call me Shirley`, 'surely');

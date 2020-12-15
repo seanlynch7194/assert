@@ -1,5 +1,5 @@
 {
-  "name": "assert",
+  "name": "@lynchbox/assert",
   "version": "0.1.0",
   "description": "Javascript library which contains assertions and guard methods for input validation.",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/seanlynch7194/assert.git"
   },
-  "author": "seanlynch7194",
+  "author": "lynchbox (https://webdoc.digital)",
   "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/seanlynch7194/assert/issues"
