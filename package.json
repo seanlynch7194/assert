@@ -1,7 +1,7 @@
 {
   "name": "assert",
   "version": "0.1.0",
-  "description": "",
+  "description": "Javascript library which contains assertions and guard methods for input validation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
