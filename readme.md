@@ -13,10 +13,10 @@ npm install @lynchbox/assert;
 ```node
 import assert from @lynchbox/assert;
 
-assert.between(5, 1, 10);
-assert.contains(`I am serious…and don't call me Shirley`, 'surely');
-assert.eq('same', 'same');
-assert.greaterOrEqualThan(value: number, limit: number);
+assert(value: number).between(lowerlimit: number, upperLimit: number);
+assert(value: string).contains('surely');
+assert(value: string).eq('same');
+assert(value: number).greaterOrEqualThan(limit: number);
 
 ```
 
