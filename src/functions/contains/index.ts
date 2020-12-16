@@ -6,7 +6,7 @@ import AssertionFailedException from '../../Exceptions/AssertionFailedException'
  * @param value 
  * @param needle
  */
-const contains = (value: string, needle: string) => {
+const contains = (value: string) => (needle: string) => {
     if (!value.includes(needle)) {
         throw new AssertionFailedException(`Provided "${value}" does not contain "${needle}"`);
     }
