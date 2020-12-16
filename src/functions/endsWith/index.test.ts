@@ -12,11 +12,11 @@ describe('endsWith', () => {
 
     it ('should throw an error if the value doesnt end with the needle', () => {
         expect(() => {
-            endsWith('Too old, to fucking blind')('john daniels');
+            endsWith('Too old, too fucking blind')('john daniels');
         }).toThrow(AssertionFailedException);
 
         expect(() => {
-            endsWith('Too old, to fucking blind')('Too old');
+            endsWith('Too old, too fucking blind')('Too old');
         }).toThrow(AssertionFailedException);
     });
 });
