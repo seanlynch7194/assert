@@ -6,7 +6,7 @@ import AssertionFailedException from '../../Exceptions/AssertionFailedException'
  * @param value 
  * @param value2
  */
-const eq = (value: string, value2: string) => {
+const eq = (value: string) => (value2: string) => {
     if (value !== value2) {
         throw new AssertionFailedException(`Provided "${value}" does not equal expected value "${value2}"`);
     }
