@@ -18,6 +18,7 @@ assert(value: string).contains('surely');
 assert(value: string).eq('same');
 assert(value: number).greaterOrEqualThan(limit: number);
 assert(value: any).isIn(source: Array);
+assert(value: string).endsWith(needle: string);
 
 ```
 
