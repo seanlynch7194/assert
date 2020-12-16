@@ -3,11 +3,14 @@ import contains from './functions/contains';
 import eq from './functions/eq';
 import greaterOrEqualThan from './functions/greaterOrEqualThan';
 
-const Assert = {
-    between,
-    contains,
-    eq,
-    greaterOrEqualThan,
+const Assert = (value: any) => {
+
+    return {
+        between: between(value),
+        contains: contains(value),
+        eq: eq(value),
+        greaterOrEqualThan: greaterOrEqualThan(value),
+    }
 }
 
 export default Assert;

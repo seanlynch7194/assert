@@ -7,7 +7,7 @@ import AssertionFailedException from '../../Exceptions/AssertionFailedException'
  * @param lowerLimit 
  * @param upperLimit 
  */
-const between = (value: number | null, lowerLimit: number, upperLimit: number) => {
+const between = (value: number | null) => (lowerLimit: number, upperLimit: number) => {
     if (!value) {
         return true;
     }
