@@ -9,7 +9,7 @@ const Assert = (value: any) => {
         between: between(value),
         contains: contains(value),
         eq: eq(value),
-        greaterOrEqualThan,
+        greaterOrEqualThan: greaterOrEqualThan(value),
     }
 }
 
