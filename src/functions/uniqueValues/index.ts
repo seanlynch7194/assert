@@ -1,7 +1,7 @@
 import AssertionFailedException from '../../Exceptions/AssertionFailedException';
 
 /**
- * Assert that values in array are unique (using strict equality).
+ * Assert that values in array are unique.
  * 
  * @param value 
  */
