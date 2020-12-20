@@ -7,6 +7,7 @@ import endsWith from './functions/endsWith';
 import startsWith from './functions/startsWith';
 import lessThan from './functions/lessThan';
 import uniqueValues from './functions/uniqueValues';
+import moreThan from './functions/moreThan';
 
 const Assert = (value: any) => {
 
@@ -20,6 +21,7 @@ const Assert = (value: any) => {
         startsWith: startsWith(value),
         lessThan: lessThan(value),
         uniqueValues: uniqueValues(value),
+        moreThan: moreThan(value),
     }
 }
 
