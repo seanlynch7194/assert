@@ -6,6 +6,7 @@ import isIn from './functions/isIn';
 import endsWith from './functions/endsWith';
 import startsWith from './functions/startsWith';
 import uniqueValues from './functions/uniqueValues';
+import moreThan from './functions/moreThan';
 
 const Assert = (value: any) => {
 
@@ -18,6 +19,7 @@ const Assert = (value: any) => {
         endsWith: endsWith(value),
         startsWith: startsWith(value),
         uniqueValues: uniqueValues(value),
+        moreThan: moreThan(value),
     }
 }
 
