@@ -21,6 +21,7 @@ assert(value: any).isIn(source: Array<any>);
 assert(value: string).endsWith(needle: string);
 assert(value: string).startsWith(needle: string);
 assert(value: Array<any>).uniqueValues();
+assert(value: number).lessThan(limit: number);
 
 ```
 

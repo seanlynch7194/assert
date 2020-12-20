@@ -5,6 +5,7 @@ import moreThanOrEqualTo from './functions/moreThanOrEqualTo';
 import isIn from './functions/isIn';
 import endsWith from './functions/endsWith';
 import startsWith from './functions/startsWith';
+import lessThan from './functions/lessThan';
 
 const Assert = (value: any) => {
 
@@ -16,6 +17,7 @@ const Assert = (value: any) => {
         isIn: isIn(value),
         endsWith: endsWith(value),
         startsWith: startsWith(value),
+        lessThan: lessThan(value),
     }
 }
 
