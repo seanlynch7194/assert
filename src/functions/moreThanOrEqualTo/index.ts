@@ -6,7 +6,7 @@ import AssertionFailedException from '../../Exceptions/AssertionFailedException'
  * @param value 
  * @param limit
  */
-const greaterOrEqualThan = (value: number) => (limit: number) => {
+const moreThanOrEqualTo = (value: number) => (limit: number) => {
     if (value < limit) {
         throw new AssertionFailedException(`Provided "${value}" is not greater or equal than "${limit}".`);
     }
@@ -15,4 +15,4 @@ const greaterOrEqualThan = (value: number) => (limit: number) => {
 }
 
 
-export default greaterOrEqualThan;
+export default moreThanOrEqualTo;
