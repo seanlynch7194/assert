@@ -2,6 +2,11 @@
   "name": "@lynchbox/assert",
   "version": "0.4.0",
   "description": "Javascript library which contains assertions and guard methods for input validation.",
+  "keywords": [
+    "guard-methods",
+    "assertions",
+    "validation"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
