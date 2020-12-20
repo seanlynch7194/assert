@@ -1,18 +1,18 @@
 import AssertionFailedException from '../../Exceptions/AssertionFailedException';
-import greaterOrEqualThan from './';
+import moreThanOrEqualTo from './';
 
-describe('greaterOrEqualThan', () => {
+describe('moreThanOrEqualTo', () => {
     it ('should pass if value is greater than the limit', () => {
-        expect(greaterOrEqualThan(10)(5)).toBeTruthy();
+        expect(moreThanOrEqualTo(10)(5)).toBeTruthy();
     });
 
     it ('should pass if value is equal to the limit', () => {
-        expect(greaterOrEqualThan(10)(10)).toBeTruthy();
+        expect(moreThanOrEqualTo(10)(10)).toBeTruthy();
     });
 
     it ('should throw exception if value is less than the limit', () => {
         expect(() => {
-            expect(greaterOrEqualThan(5)(10))
+            expect(moreThanOrEqualTo(5)(10))
         }).toThrowError(AssertionFailedException);
     });
 });
