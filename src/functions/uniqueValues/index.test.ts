@@ -15,4 +15,10 @@ describe('uniqueValues', () => {
             uniqueValues(['sean', 'sean', 'paige', 'keira'])();
         }).toThrow(AssertionFailedException);
     });
+
+    it ('should throw an exception if there is a non unique integer value in the array', () => {
+        expect(() => {
+            uniqueValues([1, 1, 2, 3, 4])();
+        }).toThrow(AssertionFailedException);
+    });
 });
