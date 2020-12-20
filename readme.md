@@ -17,9 +17,10 @@ assert(value: number).between(lowerlimit: number, upperLimit: number);
 assert(value: string).contains('surely');
 assert(value: string).eq('same');
 assert(value: number).greaterOrEqualThan(limit: number);
-assert(value: any).isIn(source: Array);
+assert(value: any).isIn(source: Array<any>);
 assert(value: string).endsWith(needle: string);
 assert(value: string).startsWith(needle: string);
+assert(value: Array<any>).uniqueValues();
 
 ```
 
